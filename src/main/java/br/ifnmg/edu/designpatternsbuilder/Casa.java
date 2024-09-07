@@ -60,13 +60,13 @@ public class Casa {
     }
 
     public void infoCasa() {
-        System.out.println("Número de quartos: " + qtddQuartos);
-        System.out.println("Múmero de banheiros: " + qtddBanheiros);
-        System.out.println("Estilo da arquitetura: " + estiloArquitetura);
-        System.out.println("Área total: " + areaTotal + " metros quadrados");
-        System.out.println("Extras:");
+        System.out.println("    > Numero de quartos: " + qtddQuartos);
+        System.out.println("    > Numero de banheiros: " + qtddBanheiros);
+        System.out.println("    > Estilo da arquitetura: " + estiloArquitetura);
+        System.out.println("    > Area total: " + areaTotal + " unidades de area");
+        System.out.println("    > Extras:");
         for (String extra : extras) {
-            System.out.println("\t" + extra);
+            System.out.println("\t. " + extra);
         }
     }
 }

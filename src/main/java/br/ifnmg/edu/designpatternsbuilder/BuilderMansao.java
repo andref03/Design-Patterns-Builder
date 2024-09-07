@@ -33,7 +33,7 @@ public class BuilderMansao implements IBuilderCasa {
         casa.addInExtras("Piscina");
         casa.addInExtras("Jardim");
         casa.addInExtras("Garagem para 4 carros");
-        casa.addInExtras("Elevado sistema de segurança");
+        casa.addInExtras("Elevado sistema de seguranca");
     }
 
     @Override
