@@ -4,11 +4,11 @@ package br.ifnmg.edu.designpatternsbuilder;
  *
  * @author andref03
  */
-public class ConcreteCasa {
+public class DirectorCasa {
 
     private IBuilderCasa builder;
 
-    public ConcreteCasa(IBuilderCasa builder) {
+    public DirectorCasa(IBuilderCasa builder) {
         this.builder = builder;
     }
 

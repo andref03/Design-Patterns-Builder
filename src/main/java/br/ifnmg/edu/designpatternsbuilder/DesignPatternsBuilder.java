@@ -9,7 +9,7 @@ public class DesignPatternsBuilder {
     public static void main(String[] args) {
         
         // criando a casa do tipo Mansão
-        ConcreteCasa builder = new ConcreteCasa(new BuilderMansao());
+        DirectorCasa builder = new DirectorCasa(new BuilderMansao());
         builder.criarCasa();
         Casa mansion = builder.getCasa();
         System.out.println(">> Informacoes da Mansao:");
@@ -18,7 +18,7 @@ public class DesignPatternsBuilder {
         System.out.println("\n---------------------------------------------\n");
 
         // criando a casa do tipo Apartamento
-        builder = new ConcreteCasa(new BuilderApartamento());
+        builder = new DirectorCasa(new BuilderApartamento());
         builder.criarCasa();
         Casa apartment = builder.getCasa();
         System.out.println(">> Informacoes do Apartamento:");
