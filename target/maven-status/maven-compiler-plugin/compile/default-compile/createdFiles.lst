@@ -1,0 +1,6 @@
+br\ifnmg\edu\designpatternsbuilder\ConcreteCasa.class
+br\ifnmg\edu\designpatternsbuilder\BuilderMansao.class
+br\ifnmg\edu\designpatternsbuilder\IBuilderCasa.class
+br\ifnmg\edu\designpatternsbuilder\BuilderApartamento.class
+br\ifnmg\edu\designpatternsbuilder\Casa.class
+br\ifnmg\edu\designpatternsbuilder\DesignPatternsBuilder.class
