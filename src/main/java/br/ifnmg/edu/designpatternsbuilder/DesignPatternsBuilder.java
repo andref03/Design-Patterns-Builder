@@ -15,5 +15,13 @@ public class DesignPatternsBuilder {
         System.out.println(">> Informacoes da Mansao:");
         mansion.infoCasa();
         
+        System.out.println("\n---------------------------------------------\n");
+
+        // criando a casa do tipo Apartamento
+        builder = new ConcreteCasa(new BuilderApartamento());
+        builder.criarCasa();
+        Casa apartment = builder.getCasa();
+        System.out.println(">> Informacoes do Apartamento:");
+        apartment.infoCasa();
     }
 }

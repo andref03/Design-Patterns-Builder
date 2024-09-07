@@ -20,7 +20,7 @@ public class BuilderApartamento implements IBuilderCasa {
 
     @Override
     public void setEstiloArquitetura() {
-        casa.setEstiloArquitetura("Contemporâneo");
+        casa.setEstiloArquitetura("Contemporaneo");
     }
 
     @Override
@@ -33,7 +33,7 @@ public class BuilderApartamento implements IBuilderCasa {
         casa.addInExtras("Sacada");
         casa.addInExtras("Estacionamento no subsolo");
         casa.addInExtras("Jardim compartilhado");
-        casa.addInExtras("Sistema de segurança básico");
+        casa.addInExtras("Sistema de seguranca basico");
     }
 
     @Override
