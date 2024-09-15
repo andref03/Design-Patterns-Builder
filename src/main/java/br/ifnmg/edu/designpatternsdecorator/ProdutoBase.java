@@ -1,7 +1,9 @@
 package br.ifnmg.edu.designpatternsdecorator;
 
 /**
- *
+ * É a classe responsável por criar um produto original, sem embalagem e/ou 
+ * desconto aplicados.
+ * 
  * @author andref03
  */
 public class ProdutoBase implements Produto {

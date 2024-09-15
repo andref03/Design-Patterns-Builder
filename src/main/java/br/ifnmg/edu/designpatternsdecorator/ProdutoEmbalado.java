@@ -1,7 +1,9 @@
 package br.ifnmg.edu.designpatternsdecorator;
 
 /**
- *
+ * Esta classe é responsável por definir que o produto será embalado para presente,
+ * portanto incrementa o seu preço em um valor fixo.
+ * 
  * @author andref03
  */
 public class ProdutoEmbalado extends ProdutoDecorator {

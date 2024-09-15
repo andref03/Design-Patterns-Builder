@@ -1,7 +1,8 @@
 package br.ifnmg.edu.designpatternsdecorator;
 
 /**
- *
+ * Classe principal, onde são feitos os testes.
+ * 
  * @author andref03
  */
 public class DesignPatternsDecorator {

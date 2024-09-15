@@ -1,7 +1,8 @@
 package br.ifnmg.edu.designpatternsdecorator;
 
 /**
- *
+ * Esta é a classe responsável por servir de base para todos os decoradores.
+ * 
  * @author andref03
  */
 public class ProdutoDecorator implements Produto {
