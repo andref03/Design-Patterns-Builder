@@ -10,23 +10,23 @@ public class DesignPatternsDecorator {
         
         Produto produto = new ProdutoBase("Laptop", 1500.00);
         
-        // Exibe informações
+        // saída original
         System.out.println("Descricao: " + produto.obterDescricao());
         System.out.println("Preco: " + produto.obterPreco());
         System.out.println();
         
-        // Adiciona embalagem para presente
+        // adicionando a embalagem para presente
         Produto produtoComEmbalagem = new ProdutoEmbalado(produto);
         
-        // Exibe informações
+        // saída após aplicar a embalagem
         System.out.println("Descricao: " + produtoComEmbalagem.obterDescricao());
         System.out.println("Preco: " + produtoComEmbalagem.obterPreco());
         System.out.println();
         
-        // Adiciona desconto
+        // adicionando desconto ao produto
         Produto produtoComDesconto = new ProdutoDesconto(produtoComEmbalagem, 100.00);
         
-        // Exibe informações
+        // saída após aplicar o desconto no produto em que já havia sido aplicado a embalagem
         System.out.println("Descricao: " + produtoComDesconto.obterDescricao());
         System.out.println("Preco: " + produtoComDesconto.obterPreco());
         System.out.println();
